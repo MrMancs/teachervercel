@@ -35,7 +35,7 @@ export default class Teachers extends React.Component {
     })
 
     try {
-        const favoriteTeacherJson = await fetch("/api/teacher/true")
+        const favoriteTeacherJson = await fetch("/api/teachers/true")
         const favoriteTeacher = await favoriteTeacherJson.json()
         console.log("favoriteTeacher", favoriteTeacher)
     } catch (err) {
