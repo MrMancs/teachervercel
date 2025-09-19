@@ -1,6 +1,12 @@
 // /api/teacher.js
+import {globalTeachers} from "./globals.js"
 
 export default  await function handler(req, res) {
+    let global = globalTeachers
+    console.log("globalTeachers", globalTeachers)
+    console.log("global", global)
+
+
     let found = null;
     if(global) found = global.teachers.find(teacher=>teacher.favorite)
 
