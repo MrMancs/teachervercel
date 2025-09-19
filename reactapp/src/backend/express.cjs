@@ -12,7 +12,7 @@ var global = {
         {
             name: "Amadeusz Armi",
             hisClass: "9/C",
-            favorute: true,
+            favorite: true,
         },
     ],
     //favoriteTeacherIdx: null,
